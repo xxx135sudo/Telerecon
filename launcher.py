@@ -43,7 +43,7 @@ print(
 
 print(Fore.CYAN + r'     | |  | |____| |____| |____| | \ \| |___| |___| |__| | |\  |   ')
 
-print(Fore.CYAN + r'     |_|  |______|______|______|_|  \_\______\_____\____/|_| \_| v2')
+print(Fore.CYAN + r'     |_|  |______|______|______|_|  \_\______\_____\____/|_| \_| v2.1')
 
 print(
     f'{Fore.CYAN}___________________________________________________________________'
@@ -83,7 +83,7 @@ options = {
 
     'Identify possible user associates via interaction network map': 'network.py',
 
-    'Parse user messages to extract selectors/intel': 'parse.py',
+    'Parse user messages to extract selectors/intel': 'selector.py',
 
     'Extract GPS data from collected user media': 'metadata.py',
 
@@ -93,8 +93,9 @@ options = {
 
     'Conduct a subscriber census across a list of target channels': 'census.py',
 
-    'Parse user messages to extract ideological indicators': 'indicators.py'
-
+    'Parse user messages to extract ideological indicators': 'indicators.py',
+    
+    'Parse user messages to extract indicators of capability and violent intent': 'assessment.py'
 }
 
 
